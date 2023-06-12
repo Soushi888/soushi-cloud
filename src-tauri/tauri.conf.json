@@ -6,7 +6,7 @@
     "distDir": "../static"
   },
   "package": {
-    "productName": "soushi-cloud-front",
+    "productName": "soushi-cloud",
     "version": "0.1.0"
   },
   "tauri": {

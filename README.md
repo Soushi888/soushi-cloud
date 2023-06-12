@@ -1,17 +1,18 @@
-# Soushi Cloud Frontend
+# create-svelte
 
-This frontend is developed with Tauri, SvelteKit and TypeScript.
-It use the Skeleton UI toolkit and Tailwind CSS.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Specifications
+## Creating a project
 
-- [ ] Connect to a Holochain conductor with websockets
-- [ ] Display files and folders from a sync folder in the filesystem
-- [ ] Sync the files and folders with the Holochain DHT
-- [ ] Display a system tray icon
-- [ ] Keep the app running in the background
-- [ ] Send created, updated and deleted files to the Holochain DHT
-- [ ] Receive created, updated and deleted files from the Holochain DHT
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
 ## Developing
 
@@ -27,7 +28,7 @@ npm run dev -- --open
 ## Building
 
 To create a production version of your app:
-pnpm add @tauri-apps/api
+
 ```bash
 npm run build
 ```
